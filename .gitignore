@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+*.egg-link
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Model adapters & checkpoints (too large for git — use HuggingFace Hub or Kaggle Datasets)
+generator-lora/
+generator-lora-final/
+mistral-critic-lora/
+*.bin
+*.safetensors
+*.pt
+*.ckpt
+
+# Generated datasets
+pubmedqa_critic_train_v2.jsonl
+pubmedqa_critic_test_v2.jsonl
+
+# Zip archives
+*.zip
+
+# Kaggle
+kaggle.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+runs/
+wandb/
